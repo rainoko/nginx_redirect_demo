@@ -1,0 +1,9 @@
+web1:
+  extends:
+    file: nginx1/docker-compose.yml
+    service: web1
+
+web2:
+  extends:
+    file: nginx2/docker-compose.yml
+    service: web2
